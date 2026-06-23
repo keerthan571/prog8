@@ -22,7 +22,10 @@
  <version>3.0.1</version>
  <configuration>
 	<archive>
-	<manifest>mainClass=com.mvit.App</manifest>
+	<manifest>
+	<mainClass>com.mvit.App
+	</mainClass>
+	</manifest>
 	</archive>
  </configuration>
  </plugin>
