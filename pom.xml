@@ -18,12 +18,12 @@
 <build>
 <plugins>
 <plugin>
- <groupId>maven-jar-plugin</groupId>
+ <artifactId>maven-jar-plugin</artifactId>
  <version>3.0.1</version>
  <configuration>
-	<artifact>
+	<archive>
 	<manifest>mainClass=com.mvit.App</manifest>
-	</artifact>
+	</archive>
  </configuration>
  </plugin>
  </plugins>
