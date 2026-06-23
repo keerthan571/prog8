@@ -15,4 +15,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<build>
+<plugins>
+<plugin>
+ <groupId>maven-jar-plugin</groupId>
+ <version>3.0.1</version>
+ <configuration>
+	<artifact>
+	<manifest>mainClass=com.mvit.App</manifest>
+	</artifact>
+ </configuration>
+ </plugin>
+ </plugins>
+ </build>
 </project>
